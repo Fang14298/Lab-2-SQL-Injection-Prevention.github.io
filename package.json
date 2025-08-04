@@ -1,0 +1,36 @@
+{
+  "name": "sql-injection-prevention-lab",
+  "version": "1.0.0",
+  "description": "Lab 2: SQL Injection Prevention - Educational demonstration of SQL injection vulnerabilities and prevention methods",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "json-server": "json-server --watch db.json --port 3000",
+    "dev-full": "concurrently \"npm run serve\" \"npm run json-server\""
+  },
+  "keywords": [
+    "sql-injection",
+    "security",
+    "web-security",
+    "education",
+    "cybersecurity",
+    "prevention"
+  ],
+  "author": "Cyber Security Lab",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/sql-injection-prevention-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/sql-injection-prevention-lab/issues"
+  },
+  "homepage": "https://github.com/example/sql-injection-prevention-lab#readme"
+} 
